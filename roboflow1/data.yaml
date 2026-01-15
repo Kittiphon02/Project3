@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Breathing', 'abnormal chicken', 'allo preening', 'bird flu', 'crouch chicken', 'dead', 'drinking', 'feeding', 'fighting', 'leg stretching', 'menacing', 'newcastle', 'pecking', 'running', 'self preening', 'sleeping chickens', 'stand bath', 'walking', 'wing and leg stretching', 'wing flap', 'wingstretching']
+
+roboflow:
+  workspace: mey
+  project: chickens-behaviours
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mey/chickens-behaviours/dataset/7
